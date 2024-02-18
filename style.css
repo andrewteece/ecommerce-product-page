@@ -1,3 +1,37 @@
 /* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
 
 /* CSS CUSTOM PROPERTIES */
+
+:root {
+  --ff-primary: 'Kumbh Sans', sans-serif;
+
+  --fw-regular: 400;
+  --ff-bold: 700;
+
+  /* 14.2222px → 16px */
+  --fs-sm: clamp(0.8889rem, 0.8491rem + 0.1677vi, 1rem);
+  /*  16px → 18px */
+  --fs-base: clamp(1rem, 0.9552rem + 0.1887vi, 1.125rem);
+  /* Step 1: 18px → 20.25px */
+  --fs-md: clamp(1.125rem, 1.0746rem + 0.2123vi, 1.2656rem);
+  /* Step 4: 25.6289px → 28.8325px */
+  --fs-lg: clamp(1.6018rem, 1.53rem + 0.3022vi, 1.802rem);
+  /* Step 5: 28.8325px → 32.4366px */
+  --fs-xlg: clamp(1.802rem, 1.7213rem + 0.34vi, 2.0273rem);
+  /* Step 6: 32.4366px → 36.4912px */
+  --fs-xxlg: clamp(2.0273rem, 1.9364rem + 0.3825vi, 2.2807rem);
+  /* Step 8: 41.0526px → 46.1841px */
+  --fs-xxxlg: clamp(2.5658rem, 2.4508rem + 0.4841vi, 2.8865rem);
+
+  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
+  --clr-neutral-200: hsl(223, 64%, 98%); /* Light grayish blue */
+  --clr-neutral-300: hsl(220, 14%, 75%); /* Grayish blue */
+  --clr-neutral-400: hsl(219, 9%, 45%); /* Dark grayish blue */
+  --clr-neutral-500: hsl(220, 13%, 13%); /* Very dark blue */
+
+  --clr-primary-200: hsl(25, 100%, 94%);
+  --clr-primary-400: hsl(26, 100%, 55%);
+
+  --clr-lightbox: hsla(0, 0%, 0%, 0.3);
+}
