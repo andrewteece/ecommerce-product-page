@@ -7,7 +7,7 @@
   --ff-primary: 'Kumbh Sans', sans-serif;
 
   --fw-regular: 400;
-  --ff-bold: 700;
+  --fw-bold: 700;
 
   /* 14.2222px → 16px */
   --fs-sm: clamp(0.8889rem, 0.8491rem + 0.1677vi, 1rem);
@@ -34,4 +34,37 @@
   --clr-primary-400: hsl(26, 100%, 55%);
 
   --clr-lightbox: hsla(0, 0%, 0%, 0.3);
+}
+
+/* CSS RESET */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* BODY/GLOBAL STYLES */
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-regular);
 }
