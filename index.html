@@ -64,7 +64,74 @@
           </div>
         </div>
       </nav>
+      <main>
+        <section class="main__product--images">
+          <img
+            src="images/image-product-1.jpg"
+            alt="low profile sneaker"
+            class="main__product--image mobile--hidden"
+          />
+          <div class="product__image--mobile hidden">
+            <img
+              src="images/image-product-1.jpg"
+              class="image--mobile"
+              alt="low profile sneaker"
+            />
+            <button id="next" type="button">
+              <img src="images/icon-next.svg" alt="next arrow" />
+            </button>
+            <button id="previous" type="button">
+              <img src="images/icon-previous.svg" alt="previous arrow" />
+            </button>
+          </div>
+          <div>
+            <div class="main__product--preview">
+              <img
+                src="images/image-product-1-thumbnail.jpg"
+                alt="low profile sneaker"
+                class="main__product--selected"
+              />
+
+              <img src="images/image-product-2-thumbnail.jpg" alt="" />
+              <img src="images/image-product-3-thumbnail.jpg" alt="" />
+              <img src="images/image-product-4-thumbnail.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="main__product--content">
+          <h1 class="content--title">Sneaker Company</h1>
+          <p class="content--subtitle">Fall Limited Edition Sneakers</p>
+          <p content--text>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="product__price">
+            <div class="product__new-price">
+              <p class="price--now">$125.00</p>
+              <span>50%</span>
+            </div>
+            <p class="price--old">$250.00</p>
+          </div>
+          <div class="buttons">
+            <div class="btn--amount">
+              <button id="minus" type="button">
+                <img src="images/icon-minus.svg" alt="minus product button" />
+              </button>
+              <p class="product--amount">0</p>
+              <button id="plus" type="button">
+                <img src="images/icon-plus.svg" alt="add product button" />
+              </button>
+            </div>
+            <button class="btn--add">
+              <img src="images/icon-cart.svg" alt="product cart" />
+              Add to cart
+            </button>
+          </div>
+        </section>
+      </main>
     </div>
+    <!-- Lightbox -->
     <script src="script.js"></script>
   </body>
 </html>
