@@ -280,3 +280,40 @@ nav {
   background-color: var(--clr-primary-400);
   padding: 1rem;
 }
+
+/* MAIN STYLES */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 9.375rem);
+  margin-inline: 2rem;
+}
+
+.main__product--images {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__product--image {
+  width: 68.75rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main__product--preview {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.main__product--preview img {
+  width: 90px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main__product--preview img:hover {
+  opacity: 60%;
+}
