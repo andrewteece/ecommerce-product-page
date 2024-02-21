@@ -435,3 +435,50 @@ main {
 .btn--add img {
   filter: brightness(5);
 }
+
+/* LIGHTBOX */
+
+.lightbox--hidden {
+  display: none !important;
+}
+
+.lightbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  background-color: transparent;
+  color: var(--clr-primary-400);
+  border: none;
+  cursor: pointer;
+}
+
+.lightbox__wrapper {
+  position: relative;
+}
+
+.lightbox--close {
+  position: absolute;
+  top: -40px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  color: var(--clr-primary-400);
+  cursor: pointer;
+}
+
+.lightbox--close:hover img {
+  filter: sepia(100%) hue-rotate(-50deg) saturate(60%) contrast(1);
+}
+
+.lightbox--close img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.lightbox .main__product--image {
+  width: 25rem;
+}
