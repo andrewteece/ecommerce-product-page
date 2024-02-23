@@ -93,15 +93,16 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 6rem;
+  min-height: 5rem;
   /*flex: 1;*/
   margin: 0 auto;
 }
 
 .nav__wrapper {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
+  padding-inline: 1rem;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 .nav__logo {
@@ -111,6 +112,14 @@ nav {
 .nav__left {
   display: flex;
   align-items: center;
+}
+
+.menu:hover {
+  filter: brightness(0%);
+}
+
+.close--btn:hover {
+  filter: brightness(0%);
 }
 
 .nav__links {
@@ -176,6 +185,7 @@ nav {
 .cart__btn {
   background-color: transparent;
   border: none;
+  margin-top: 0.25rem;
 }
 
 .cart__indicator {
