@@ -85,7 +85,7 @@ function addItem() {
         <img src="./images/image-product-1-thumbnail.jpg" class="product-img" alt="product">
         <div class="product__info">
                         <p class="product__title">Fall Limited Edition Sneakers</p>
-                       <p><span>$125.00</span> × <span class="number">${amountValue}</span> <b>$${total}</b></p>
+                       <p><span>$125.00</span> × <span class="number">${amountValue}</span> <b>  $${total}</b></p>
                       </div>
                       <button class="btn--delete" type="button" onclick="deleteItem()"><img src="./images/icon-delete.svg" alt="delete"></button>
                     </div>
